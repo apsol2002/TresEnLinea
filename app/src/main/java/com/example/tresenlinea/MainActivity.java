@@ -20,6 +20,9 @@ public class MainActivity extends AppCompatActivity {
         mostrarDimensionesEnConsola();
 
 
+
+
+
     }
 
     public void mostrarDimensionesEnConsola(){
