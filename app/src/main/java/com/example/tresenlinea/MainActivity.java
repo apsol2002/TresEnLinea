@@ -3,26 +3,44 @@ package com.example.tresenlinea;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import android.graphics.Point;
 import android.os.Bundle;
+
+/*   /// LOS import necesarios para el metodo MOSTRARDIMENSIONES
+import android.graphics.Point;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.Display;
-import android.widget.TextView;
+import android.widget.TextView;*/
 
 public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-
-        mostrarDimensionesEnConsola();
+        setContentView(R.layout.activity_main2);
 
 
-
+        //mostrarDimensionesEnConsola();
     }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*   ///
     public void mostrarDimensionesEnConsola(){
 
         String TAG="";
@@ -67,4 +85,5 @@ public class MainActivity extends AppCompatActivity {
         int orientation = getResources().getConfiguration().orientation;
         Log.i(TAG, "Orientación       = " + orientation);
     }
+    */
 }
